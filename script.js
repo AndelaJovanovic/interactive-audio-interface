@@ -16,7 +16,16 @@ window.addEventListener("load", () => {
         rectangle.addEventListener("click", function() {
             audios[item].currentTime = 0
             audios[item].play()
+            createHeart(item)
         })
     })
 
+const createHeart = (item) => {
+    const heart = document.createElement("div")
+    player.appendChild(heart)
+    heart.style.backgroundColor = shades[item]
+    heart.style.animation = `bounce 2s ease`
+    heart.addEventListener("animationend", function() {    
+    })
+}
 })
