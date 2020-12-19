@@ -71,7 +71,7 @@ header {
     position: absolute;
     bottom: 0%;
     height: 50px;
-    width: 80px;
+    width: 50px;
     border-radius: 50%;
     transform: scale(1);
     z-index: -1;
