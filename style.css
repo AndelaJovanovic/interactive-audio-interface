@@ -21,7 +21,47 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
+}
+
+header {
+    margin-top: 30px;
+}
+
+.rectangles {
+    background-color: white;
+    width: 100%;
+    display: flex;
+}
+
+.rectangles > div {
+    width: 100px;
+    height: 100px;
+    flex: 1;
+}
+.rec1 {
+    background-color: teal;
+}
+
+
+.rec2 {
+    background-color: pink;
+}
+
+.rec3 {
+    background-color: rgb(109, 109, 209);
+}
+
+.rec4 {
+    background-color: palegreen;
+}
+
+.rec5 {
+    background-color: rgb(170, 134, 67);
+}
+
+.rec6 {
+    background-color: yellow;
 }
