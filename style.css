@@ -1,3 +1,27 @@
+/*Font*/
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+html {
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+
 body {
-    background-color: aqua;
+    background-color: rgb(181, 199, 199);
+    font-family: 'Sacramento', cursive;
+    font-size: 25px;
+}
+
+.project  {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
 }
