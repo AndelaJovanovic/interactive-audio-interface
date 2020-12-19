@@ -42,26 +42,26 @@ header {
     flex: 1;
 }
 .rec1 {
-    background-color: teal;
+    background-color: #70d6ff;
 }
 
 
 .rec2 {
-    background-color: pink;
+    background-color: #FF70A6;
 }
 
 .rec3 {
-    background-color: rgb(109, 109, 209);
+    background-color: #FF9770;
 }
 
 .rec4 {
-    background-color: palegreen;
+    background-color: #ffd670;
 }
 
 .rec5 {
-    background-color: rgb(170, 134, 67);
+    background-color: #e9ff70
 }
 
 .rec6 {
-    background-color: yellow;
+    background-color: #333533;
 }
