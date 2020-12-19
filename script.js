@@ -1,10 +1,12 @@
 window.addEventListener("load", () => {
-    const audio = document.querySelectorAll(".audio")
+    const audios = document.querySelectorAll(".audio")
     const rectangles = document.querySelectorAll(".rectangles div")
 
-    rectangles.forEach(rectangle => {
+    console.log(audios)
+
+    rectangles.forEach((rectangle, item) => {
         rectangle.addEventListener("click", function() {
-            audio[2]
+            audios[item].play()
         })
     })
 
